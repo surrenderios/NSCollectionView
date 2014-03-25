@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4C6BF718DD5DB800F43665 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4C6BF618DD5DB800F43665 /* Cocoa.framework */; };
+		FA4C6C0118DD5DB800F43665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA4C6BFF18DD5DB800F43665 /* InfoPlist.strings */; };
+		FA4C6C0318DD5DB800F43665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C0218DD5DB800F43665 /* main.m */; };
+		FA4C6C0718DD5DB800F43665 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA4C6C0518DD5DB800F43665 /* Credits.rtf */; };
+		FA4C6C0A18DD5DB800F43665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C0918DD5DB800F43665 /* AppDelegate.m */; };
+		FA4C6C0D18DD5DB900F43665 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4C6C0B18DD5DB900F43665 /* MainMenu.xib */; };
+		FA4C6C0F18DD5DB900F43665 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4C6C0E18DD5DB900F43665 /* Images.xcassets */; };
+		FA4C6C1618DD5DB900F43665 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4C6C1518DD5DB900F43665 /* XCTest.framework */; };
+		FA4C6C1718DD5DB900F43665 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4C6BF618DD5DB800F43665 /* Cocoa.framework */; };
+		FA4C6C1F18DD5DB900F43665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA4C6C1D18DD5DB900F43665 /* InfoPlist.strings */; };
+		FA4C6C2118DD5DB900F43665 /* AlexNSCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2018DD5DB900F43665 /* AlexNSCollectionViewTests.m */; };
+		FA4C6C2C18DD672E00F43665 /* AlexAppEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2B18DD672E00F43665 /* AlexAppEntities.m */; };
+		FA4C6C2F18DE947400F43665 /* AlexNSCollectionViewItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2E18DE947400F43665 /* AlexNSCollectionViewItemView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA4C6C1818DD5DB900F43665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4C6BEB18DD5DB800F43665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4C6BF218DD5DB800F43665;
+			remoteInfo = AlexNSCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA4C6BF318DD5DB800F43665 /* AlexNSCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexNSCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4C6BF618DD5DB800F43665 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA4C6BF918DD5DB800F43665 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA4C6BFA18DD5DB800F43665 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA4C6BFB18DD5DB800F43665 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA4C6BFE18DD5DB800F43665 /* AlexNSCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlexNSCollectionView-Info.plist"; sourceTree = "<group>"; };
+		FA4C6C0018DD5DB800F43665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA4C6C0218DD5DB800F43665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA4C6C0418DD5DB800F43665 /* AlexNSCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlexNSCollectionView-Prefix.pch"; sourceTree = "<group>"; };
+		FA4C6C0618DD5DB800F43665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FA4C6C0818DD5DB800F43665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA4C6C0918DD5DB800F43665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA4C6C0C18DD5DB900F43665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA4C6C0E18DD5DB900F43665 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA4C6C1418DD5DB900F43665 /* AlexNSCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexNSCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4C6C1518DD5DB900F43665 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA4C6C1C18DD5DB900F43665 /* AlexNSCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlexNSCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
+		FA4C6C1E18DD5DB900F43665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA4C6C2018DD5DB900F43665 /* AlexNSCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexNSCollectionViewTests.m; sourceTree = "<group>"; };
+		FA4C6C2A18DD672E00F43665 /* AlexAppEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlexAppEntities.h; sourceTree = "<group>"; };
+		FA4C6C2B18DD672E00F43665 /* AlexAppEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlexAppEntities.m; sourceTree = "<group>"; };
+		FA4C6C2D18DE947400F43665 /* AlexNSCollectionViewItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlexNSCollectionViewItemView.h; sourceTree = "<group>"; };
+		FA4C6C2E18DE947400F43665 /* AlexNSCollectionViewItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlexNSCollectionViewItemView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4C6BF018DD5DB800F43665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4C6BF718DD5DB800F43665 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4C6C1118DD5DB900F43665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4C6C1718DD5DB900F43665 /* Cocoa.framework in Frameworks */,
+				FA4C6C1618DD5DB900F43665 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4C6BEA18DD5DB800F43665 = {
+			isa = PBXGroup;
+			children = (
+				FA4C6BFC18DD5DB800F43665 /* AlexNSCollectionView */,
+				FA4C6C1A18DD5DB900F43665 /* AlexNSCollectionViewTests */,
+				FA4C6BF518DD5DB800F43665 /* Frameworks */,
+				FA4C6BF418DD5DB800F43665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4C6BF418DD5DB800F43665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C6BF318DD5DB800F43665 /* AlexNSCollectionView.app */,
+				FA4C6C1418DD5DB900F43665 /* AlexNSCollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4C6BF518DD5DB800F43665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C6BF618DD5DB800F43665 /* Cocoa.framework */,
+				FA4C6C1518DD5DB900F43665 /* XCTest.framework */,
+				FA4C6BF818DD5DB800F43665 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA4C6BF818DD5DB800F43665 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C6BF918DD5DB800F43665 /* AppKit.framework */,
+				FA4C6BFA18DD5DB800F43665 /* CoreData.framework */,
+				FA4C6BFB18DD5DB800F43665 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA4C6BFC18DD5DB800F43665 /* AlexNSCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C6C0818DD5DB800F43665 /* AppDelegate.h */,
+				FA4C6C0918DD5DB800F43665 /* AppDelegate.m */,
+				FA4C6C0B18DD5DB900F43665 /* MainMenu.xib */,
+				FA4C6C2A18DD672E00F43665 /* AlexAppEntities.h */,
+				FA4C6C2B18DD672E00F43665 /* AlexAppEntities.m */,
+				FA4C6C2D18DE947400F43665 /* AlexNSCollectionViewItemView.h */,
+				FA4C6C2E18DE947400F43665 /* AlexNSCollectionViewItemView.m */,
+				FA4C6C0E18DD5DB900F43665 /* Images.xcassets */,
+				FA4C6BFD18DD5DB800F43665 /* Supporting Files */,
+			);
+			path = AlexNSCollectionView;
+			sourceTree = "<group>";
+		};
+		FA4C6BFD18DD5DB800F43665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C6BFE18DD5DB800F43665 /* AlexNSCollectionView-Info.plist */,
+				FA4C6BFF18DD5DB800F43665 /* InfoPlist.strings */,
+				FA4C6C0218DD5DB800F43665 /* main.m */,
+				FA4C6C0418DD5DB800F43665 /* AlexNSCollectionView-Prefix.pch */,
+				FA4C6C0518DD5DB800F43665 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA4C6C1A18DD5DB900F43665 /* AlexNSCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C6C2018DD5DB900F43665 /* AlexNSCollectionViewTests.m */,
+				FA4C6C1B18DD5DB900F43665 /* Supporting Files */,
+			);
+			path = AlexNSCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		FA4C6C1B18DD5DB900F43665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C6C1C18DD5DB900F43665 /* AlexNSCollectionViewTests-Info.plist */,
+				FA4C6C1D18DD5DB900F43665 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4C6BF218DD5DB800F43665 /* AlexNSCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4C6C2418DD5DB900F43665 /* Build configuration list for PBXNativeTarget "AlexNSCollectionView" */;
+			buildPhases = (
+				FA4C6BEF18DD5DB800F43665 /* Sources */,
+				FA4C6BF018DD5DB800F43665 /* Frameworks */,
+				FA4C6BF118DD5DB800F43665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlexNSCollectionView;
+			productName = AlexNSCollectionView;
+			productReference = FA4C6BF318DD5DB800F43665 /* AlexNSCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA4C6C1318DD5DB900F43665 /* AlexNSCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4C6C2718DD5DB900F43665 /* Build configuration list for PBXNativeTarget "AlexNSCollectionViewTests" */;
+			buildPhases = (
+				FA4C6C1018DD5DB900F43665 /* Sources */,
+				FA4C6C1118DD5DB900F43665 /* Frameworks */,
+				FA4C6C1218DD5DB900F43665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4C6C1918DD5DB900F43665 /* PBXTargetDependency */,
+			);
+			name = AlexNSCollectionViewTests;
+			productName = AlexNSCollectionViewTests;
+			productReference = FA4C6C1418DD5DB900F43665 /* AlexNSCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4C6BEB18DD5DB800F43665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AlexWu;
+				TargetAttributes = {
+					FA4C6C1318DD5DB900F43665 = {
+						TestTargetID = FA4C6BF218DD5DB800F43665;
+					};
+				};
+			};
+			buildConfigurationList = FA4C6BEE18DD5DB800F43665 /* Build configuration list for PBXProject "AlexNSCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4C6BEA18DD5DB800F43665;
+			productRefGroup = FA4C6BF418DD5DB800F43665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4C6BF218DD5DB800F43665 /* AlexNSCollectionView */,
+				FA4C6C1318DD5DB900F43665 /* AlexNSCollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4C6BF118DD5DB800F43665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4C6C0118DD5DB800F43665 /* InfoPlist.strings in Resources */,
+				FA4C6C0F18DD5DB900F43665 /* Images.xcassets in Resources */,
+				FA4C6C0718DD5DB800F43665 /* Credits.rtf in Resources */,
+				FA4C6C0D18DD5DB900F43665 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4C6C1218DD5DB900F43665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4C6C1F18DD5DB900F43665 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4C6BEF18DD5DB800F43665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4C6C2C18DD672E00F43665 /* AlexAppEntities.m in Sources */,
+				FA4C6C2F18DE947400F43665 /* AlexNSCollectionViewItemView.m in Sources */,
+				FA4C6C0A18DD5DB800F43665 /* AppDelegate.m in Sources */,
+				FA4C6C0318DD5DB800F43665 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4C6C1018DD5DB900F43665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4C6C2118DD5DB900F43665 /* AlexNSCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA4C6C1918DD5DB900F43665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4C6BF218DD5DB800F43665 /* AlexNSCollectionView */;
+			targetProxy = FA4C6C1818DD5DB900F43665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA4C6BFF18DD5DB800F43665 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4C6C0018DD5DB800F43665 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA4C6C0518DD5DB800F43665 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4C6C0618DD5DB800F43665 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FA4C6C0B18DD5DB900F43665 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4C6C0C18DD5DB900F43665 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FA4C6C1D18DD5DB900F43665 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4C6C1E18DD5DB900F43665 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA4C6C2218DD5DB900F43665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA4C6C2318DD5DB900F43665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA4C6C2518DD5DB900F43665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlexNSCollectionView/AlexNSCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "AlexNSCollectionView/AlexNSCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA4C6C2618DD5DB900F43665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlexNSCollectionView/AlexNSCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "AlexNSCollectionView/AlexNSCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA4C6C2818DD5DB900F43665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlexNSCollectionView.app/Contents/MacOS/AlexNSCollectionView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlexNSCollectionView/AlexNSCollectionView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AlexNSCollectionViewTests/AlexNSCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA4C6C2918DD5DB900F43665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlexNSCollectionView.app/Contents/MacOS/AlexNSCollectionView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlexNSCollectionView/AlexNSCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "AlexNSCollectionViewTests/AlexNSCollectionViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4C6BEE18DD5DB800F43665 /* Build configuration list for PBXProject "AlexNSCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4C6C2218DD5DB900F43665 /* Debug */,
+				FA4C6C2318DD5DB900F43665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4C6C2418DD5DB900F43665 /* Build configuration list for PBXNativeTarget "AlexNSCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4C6C2518DD5DB900F43665 /* Debug */,
+				FA4C6C2618DD5DB900F43665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA4C6C2718DD5DB900F43665 /* Build configuration list for PBXNativeTarget "AlexNSCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4C6C2818DD5DB900F43665 /* Debug */,
+				FA4C6C2918DD5DB900F43665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA4C6BEB18DD5DB800F43665 /* Project object */;
+}
