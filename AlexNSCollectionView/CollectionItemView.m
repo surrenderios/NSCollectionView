@@ -1,14 +1,14 @@
 //
-//  AlexNSCollectionViewItemView.m
+//  CollectionItemView.m
 //  AlexNSCollectionView
 //
 //  Created by AlexWu on 3/23/14.
 //  Copyright (c) 2014 AlexWu. All rights reserved.
 //
 
-#import "AlexNSCollectionViewItemView.h"
+#import "CollectionItemView.h"
 
-@implementation AlexNSCollectionViewItemView
+@implementation CollectionItemView
 @synthesize isSelected = _isSelected;
 
 - (id)initWithFrame:(NSRect)frame
@@ -60,11 +60,11 @@
 @end
 
 
-@implementation ALExNSCollectionVIewItem
+@implementation CollectionItem
 
 - (void)setSelected:(BOOL)selected
 {
-    [(AlexNSCollectionViewItemView *)[self view] setIsSelected:selected];
+    [(CollectionItemView *)[self view] setIsSelected:selected];
     [super setSelected:selected];
 }
 

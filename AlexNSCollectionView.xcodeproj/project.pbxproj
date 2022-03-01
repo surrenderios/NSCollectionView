@@ -19,7 +19,7 @@
 		FA4C6C1F18DD5DB900F43665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA4C6C1D18DD5DB900F43665 /* InfoPlist.strings */; };
 		FA4C6C2118DD5DB900F43665 /* AlexNSCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2018DD5DB900F43665 /* AlexNSCollectionViewTests.m */; };
 		FA4C6C2C18DD672E00F43665 /* AlexAppEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2B18DD672E00F43665 /* AlexAppEntities.m */; };
-		FA4C6C2F18DE947400F43665 /* AlexNSCollectionViewItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2E18DE947400F43665 /* AlexNSCollectionViewItemView.m */; };
+		FA4C6C2F18DE947400F43665 /* CollectionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2E18DE947400F43665 /* CollectionItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		FA4C6C2018DD5DB900F43665 /* AlexNSCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexNSCollectionViewTests.m; sourceTree = "<group>"; };
 		FA4C6C2A18DD672E00F43665 /* AlexAppEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlexAppEntities.h; sourceTree = "<group>"; };
 		FA4C6C2B18DD672E00F43665 /* AlexAppEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlexAppEntities.m; sourceTree = "<group>"; };
-		FA4C6C2D18DE947400F43665 /* AlexNSCollectionViewItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlexNSCollectionViewItemView.h; sourceTree = "<group>"; };
-		FA4C6C2E18DE947400F43665 /* AlexNSCollectionViewItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlexNSCollectionViewItemView.m; sourceTree = "<group>"; };
+		FA4C6C2D18DE947400F43665 /* CollectionItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionItemView.h; sourceTree = "<group>"; };
+		FA4C6C2E18DE947400F43665 /* CollectionItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionItemView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 				FA4C6C0B18DD5DB900F43665 /* MainMenu.xib */,
 				FA4C6C2A18DD672E00F43665 /* AlexAppEntities.h */,
 				FA4C6C2B18DD672E00F43665 /* AlexAppEntities.m */,
-				FA4C6C2D18DE947400F43665 /* AlexNSCollectionViewItemView.h */,
-				FA4C6C2E18DE947400F43665 /* AlexNSCollectionViewItemView.m */,
+				FA4C6C2D18DE947400F43665 /* CollectionItemView.h */,
+				FA4C6C2E18DE947400F43665 /* CollectionItemView.m */,
 				FA4C6C0E18DD5DB900F43665 /* Images.xcassets */,
 				FA4C6BFD18DD5DB800F43665 /* Supporting Files */,
 			);
@@ -221,6 +221,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA4C6C2C18DD672E00F43665 /* AlexAppEntities.m in Sources */,
-				FA4C6C2F18DE947400F43665 /* AlexNSCollectionViewItemView.m in Sources */,
+				FA4C6C2F18DE947400F43665 /* CollectionItemView.m in Sources */,
 				FA4C6C0A18DD5DB800F43665 /* AppDelegate.m in Sources */,
 				FA4C6C0318DD5DB800F43665 /* main.m in Sources */,
 			);
@@ -480,6 +481,7 @@
 				FA4C6C2618DD5DB900F43665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA4C6C2718DD5DB900F43665 /* Build configuration list for PBXNativeTarget "AlexNSCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +490,7 @@
 				FA4C6C2918DD5DB900F43665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  AlexNSCollectionViewItemView.h
+//  CollectionItemView.h
 //  AlexNSCollectionView
 //
 //  Created by AlexWu on 3/23/14.
@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AlexNSCollectionViewItemView : NSView
+@interface CollectionItemView : NSView
 {
     BOOL _isSelected;
 }
@@ -17,6 +17,6 @@
 @end
 
 
-@interface ALExNSCollectionVIewItem : NSCollectionViewItem
+@interface CollectionItem : NSCollectionViewItem
 
 @end
