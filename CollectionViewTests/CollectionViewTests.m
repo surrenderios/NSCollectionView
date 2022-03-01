@@ -1,6 +1,6 @@
 //
-//  AlexNSCollectionViewTests.m
-//  AlexNSCollectionViewTests
+//  CollectionViewTests.m
+//  CollectionViewTests
 //
 //  Created by AlexWu on 3/22/14.
 //  Copyright (c) 2014 AlexWu. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface AlexNSCollectionViewTests : XCTestCase
+@interface CollectionViewTests : XCTestCase
 
 @end
 
-@implementation AlexNSCollectionViewTests
+@implementation CollectionViewTests
 
 - (void)setUp
 {

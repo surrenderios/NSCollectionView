@@ -1,6 +1,6 @@
 //
 //  CollectionItemView.h
-//  AlexNSCollectionView
+//  CollectionView
 //
 //  Created by AlexWu on 3/23/14.
 //  Copyright (c) 2014 AlexWu. All rights reserved.

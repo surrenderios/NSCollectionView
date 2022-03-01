@@ -17,7 +17,7 @@
 		FA4C6C1618DD5DB900F43665 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4C6C1518DD5DB900F43665 /* XCTest.framework */; };
 		FA4C6C1718DD5DB900F43665 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4C6BF618DD5DB800F43665 /* Cocoa.framework */; };
 		FA4C6C1F18DD5DB900F43665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA4C6C1D18DD5DB900F43665 /* InfoPlist.strings */; };
-		FA4C6C2118DD5DB900F43665 /* AlexNSCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2018DD5DB900F43665 /* AlexNSCollectionViewTests.m */; };
+		FA4C6C2118DD5DB900F43665 /* CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2018DD5DB900F43665 /* CollectionViewTests.m */; };
 		FA4C6C2C18DD672E00F43665 /* AlexAppEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2B18DD672E00F43665 /* AlexAppEntities.m */; };
 		FA4C6C2F18DE947400F43665 /* CollectionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4C6C2E18DE947400F43665 /* CollectionItemView.m */; };
 /* End PBXBuildFile section */
@@ -33,25 +33,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA4C6BF318DD5DB800F43665 /* AlexNSCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexNSCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4C6BF318DD5DB800F43665 /* CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4C6BF618DD5DB800F43665 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FA4C6BF918DD5DB800F43665 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		FA4C6BFA18DD5DB800F43665 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FA4C6BFB18DD5DB800F43665 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FA4C6BFE18DD5DB800F43665 /* AlexNSCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlexNSCollectionView-Info.plist"; sourceTree = "<group>"; };
+		FA4C6BFE18DD5DB800F43665 /* CollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionView-Info.plist"; sourceTree = "<group>"; };
 		FA4C6C0018DD5DB800F43665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA4C6C0218DD5DB800F43665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA4C6C0418DD5DB800F43665 /* AlexNSCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlexNSCollectionView-Prefix.pch"; sourceTree = "<group>"; };
+		FA4C6C0418DD5DB800F43665 /* CollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionView-Prefix.pch"; sourceTree = "<group>"; };
 		FA4C6C0618DD5DB800F43665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FA4C6C0818DD5DB800F43665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA4C6C0918DD5DB800F43665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FA4C6C0C18DD5DB900F43665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FA4C6C0E18DD5DB900F43665 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FA4C6C1418DD5DB900F43665 /* AlexNSCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexNSCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4C6C1418DD5DB900F43665 /* CollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4C6C1518DD5DB900F43665 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FA4C6C1C18DD5DB900F43665 /* AlexNSCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlexNSCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
+		FA4C6C1C18DD5DB900F43665 /* CollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		FA4C6C1E18DD5DB900F43665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FA4C6C2018DD5DB900F43665 /* AlexNSCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlexNSCollectionViewTests.m; sourceTree = "<group>"; };
+		FA4C6C2018DD5DB900F43665 /* CollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewTests.m; sourceTree = "<group>"; };
 		FA4C6C2A18DD672E00F43665 /* AlexAppEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlexAppEntities.h; sourceTree = "<group>"; };
 		FA4C6C2B18DD672E00F43665 /* AlexAppEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlexAppEntities.m; sourceTree = "<group>"; };
 		FA4C6C2D18DE947400F43665 /* CollectionItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionItemView.h; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 		FA4C6BEA18DD5DB800F43665 = {
 			isa = PBXGroup;
 			children = (
-				FA4C6BFC18DD5DB800F43665 /* AlexNSCollectionView */,
-				FA4C6C1A18DD5DB900F43665 /* AlexNSCollectionViewTests */,
+				FA4C6BFC18DD5DB800F43665 /* CollectionView */,
+				FA4C6C1A18DD5DB900F43665 /* CollectionViewTests */,
 				FA4C6BF518DD5DB800F43665 /* Frameworks */,
 				FA4C6BF418DD5DB800F43665 /* Products */,
 			);
@@ -92,8 +92,8 @@
 		FA4C6BF418DD5DB800F43665 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA4C6BF318DD5DB800F43665 /* AlexNSCollectionView.app */,
-				FA4C6C1418DD5DB900F43665 /* AlexNSCollectionViewTests.xctest */,
+				FA4C6BF318DD5DB800F43665 /* CollectionView.app */,
+				FA4C6C1418DD5DB900F43665 /* CollectionViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		FA4C6BFC18DD5DB800F43665 /* AlexNSCollectionView */ = {
+		FA4C6BFC18DD5DB800F43665 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				FA4C6C0818DD5DB800F43665 /* AppDelegate.h */,
@@ -131,34 +131,34 @@
 				FA4C6C0E18DD5DB900F43665 /* Images.xcassets */,
 				FA4C6BFD18DD5DB800F43665 /* Supporting Files */,
 			);
-			path = AlexNSCollectionView;
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		FA4C6BFD18DD5DB800F43665 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA4C6BFE18DD5DB800F43665 /* AlexNSCollectionView-Info.plist */,
+				FA4C6BFE18DD5DB800F43665 /* CollectionView-Info.plist */,
 				FA4C6BFF18DD5DB800F43665 /* InfoPlist.strings */,
 				FA4C6C0218DD5DB800F43665 /* main.m */,
-				FA4C6C0418DD5DB800F43665 /* AlexNSCollectionView-Prefix.pch */,
+				FA4C6C0418DD5DB800F43665 /* CollectionView-Prefix.pch */,
 				FA4C6C0518DD5DB800F43665 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FA4C6C1A18DD5DB900F43665 /* AlexNSCollectionViewTests */ = {
+		FA4C6C1A18DD5DB900F43665 /* CollectionViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA4C6C2018DD5DB900F43665 /* AlexNSCollectionViewTests.m */,
+				FA4C6C2018DD5DB900F43665 /* CollectionViewTests.m */,
 				FA4C6C1B18DD5DB900F43665 /* Supporting Files */,
 			);
-			path = AlexNSCollectionViewTests;
+			path = CollectionViewTests;
 			sourceTree = "<group>";
 		};
 		FA4C6C1B18DD5DB900F43665 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA4C6C1C18DD5DB900F43665 /* AlexNSCollectionViewTests-Info.plist */,
+				FA4C6C1C18DD5DB900F43665 /* CollectionViewTests-Info.plist */,
 				FA4C6C1D18DD5DB900F43665 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -167,9 +167,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA4C6BF218DD5DB800F43665 /* AlexNSCollectionView */ = {
+		FA4C6BF218DD5DB800F43665 /* CollectionView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA4C6C2418DD5DB900F43665 /* Build configuration list for PBXNativeTarget "AlexNSCollectionView" */;
+			buildConfigurationList = FA4C6C2418DD5DB900F43665 /* Build configuration list for PBXNativeTarget "CollectionView" */;
 			buildPhases = (
 				FA4C6BEF18DD5DB800F43665 /* Sources */,
 				FA4C6BF018DD5DB800F43665 /* Frameworks */,
@@ -179,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = AlexNSCollectionView;
+			name = CollectionView;
 			productName = AlexNSCollectionView;
-			productReference = FA4C6BF318DD5DB800F43665 /* AlexNSCollectionView.app */;
+			productReference = FA4C6BF318DD5DB800F43665 /* CollectionView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA4C6C1318DD5DB900F43665 /* AlexNSCollectionViewTests */ = {
+		FA4C6C1318DD5DB900F43665 /* CollectionViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA4C6C2718DD5DB900F43665 /* Build configuration list for PBXNativeTarget "AlexNSCollectionViewTests" */;
+			buildConfigurationList = FA4C6C2718DD5DB900F43665 /* Build configuration list for PBXNativeTarget "CollectionViewTests" */;
 			buildPhases = (
 				FA4C6C1018DD5DB900F43665 /* Sources */,
 				FA4C6C1118DD5DB900F43665 /* Frameworks */,
@@ -197,9 +197,9 @@
 			dependencies = (
 				FA4C6C1918DD5DB900F43665 /* PBXTargetDependency */,
 			);
-			name = AlexNSCollectionViewTests;
+			name = CollectionViewTests;
 			productName = AlexNSCollectionViewTests;
-			productReference = FA4C6C1418DD5DB900F43665 /* AlexNSCollectionViewTests.xctest */;
+			productReference = FA4C6C1418DD5DB900F43665 /* CollectionViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA4C6BEE18DD5DB800F43665 /* Build configuration list for PBXProject "AlexNSCollectionView" */;
+			buildConfigurationList = FA4C6BEE18DD5DB800F43665 /* Build configuration list for PBXProject "CollectionView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,8 +230,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA4C6BF218DD5DB800F43665 /* AlexNSCollectionView */,
-				FA4C6C1318DD5DB900F43665 /* AlexNSCollectionViewTests */,
+				FA4C6BF218DD5DB800F43665 /* CollectionView */,
+				FA4C6C1318DD5DB900F43665 /* CollectionViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4C6C2118DD5DB900F43665 /* AlexNSCollectionViewTests.m in Sources */,
+				FA4C6C2118DD5DB900F43665 /* CollectionViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +283,7 @@
 /* Begin PBXTargetDependency section */
 		FA4C6C1918DD5DB900F43665 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA4C6BF218DD5DB800F43665 /* AlexNSCollectionView */;
+			target = FA4C6BF218DD5DB800F43665 /* CollectionView */;
 			targetProxy = FA4C6C1818DD5DB900F43665 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,8 +401,8 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AlexNSCollectionView/AlexNSCollectionView-Prefix.pch";
-				INFOPLIST_FILE = "AlexNSCollectionView/AlexNSCollectionView-Info.plist";
+				GCC_PREFIX_HEADER = "CollectionView/CollectionView-Prefix.pch";
+				INFOPLIST_FILE = "CollectionView/CollectionView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -415,8 +415,8 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AlexNSCollectionView/AlexNSCollectionView-Prefix.pch";
-				INFOPLIST_FILE = "AlexNSCollectionView/AlexNSCollectionView-Info.plist";
+				GCC_PREFIX_HEADER = "CollectionView/CollectionView-Prefix.pch";
+				INFOPLIST_FILE = "CollectionView/CollectionView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -432,12 +432,12 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AlexNSCollectionView/AlexNSCollectionView-Prefix.pch";
+				GCC_PREFIX_HEADER = "CollectionView/CollectionView-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "AlexNSCollectionViewTests/AlexNSCollectionViewTests-Info.plist";
+				INFOPLIST_FILE = "CollectionViewTests/CollectionViewTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -454,8 +454,8 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AlexNSCollectionView/AlexNSCollectionView-Prefix.pch";
-				INFOPLIST_FILE = "AlexNSCollectionViewTests/AlexNSCollectionViewTests-Info.plist";
+				GCC_PREFIX_HEADER = "CollectionView/CollectionView-Prefix.pch";
+				INFOPLIST_FILE = "CollectionViewTests/CollectionViewTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -465,7 +465,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA4C6BEE18DD5DB800F43665 /* Build configuration list for PBXProject "AlexNSCollectionView" */ = {
+		FA4C6BEE18DD5DB800F43665 /* Build configuration list for PBXProject "CollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA4C6C2218DD5DB900F43665 /* Debug */,
@@ -474,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA4C6C2418DD5DB900F43665 /* Build configuration list for PBXNativeTarget "AlexNSCollectionView" */ = {
+		FA4C6C2418DD5DB900F43665 /* Build configuration list for PBXNativeTarget "CollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA4C6C2518DD5DB900F43665 /* Debug */,
@@ -483,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA4C6C2718DD5DB900F43665 /* Build configuration list for PBXNativeTarget "AlexNSCollectionViewTests" */ = {
+		FA4C6C2718DD5DB900F43665 /* Build configuration list for PBXNativeTarget "CollectionViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA4C6C2818DD5DB900F43665 /* Debug */,
